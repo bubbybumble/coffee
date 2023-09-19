@@ -30,6 +30,7 @@ char* steamFrames[][25] = {
 int main(void)
 {
     initscr();
+    curs_set(false);
     int running = 1;
     while(running){
         int i = 0;
